@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warehouse-manager"
+version = "0.1.0"
+description = "Warehouse inventory management laboratory project"
+requires-python = ">=3.11"
+
+[project.scripts]
+warehouse-manager = "warehouse_manager.main:main"
